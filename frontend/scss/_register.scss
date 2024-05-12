@@ -1,0 +1,17 @@
+form.register, form.login {
+    width: 60%;
+    margin: auto;
+    height: 80vh;
+
+    .error{
+        position: absolute;
+        color: red;
+        font-size: 0.6rem;
+      }
+}
+
+@media (max-width: 768px) {
+    form.register, form.login {
+        width: 90%;
+    }
+}
